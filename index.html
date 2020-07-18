@@ -62,6 +62,9 @@
             </p>
           </li>
           <li>
+            <div class="icon">
+              <img src="./img/watch.svg" alt="Часы">
+            </div>
             <h3 class="section-title">ПУНКТУАЛЬНОСТЬ</h3>
             <p class="section-text">
               Задача организации, в особенности же рамки и место обучения
@@ -69,6 +72,9 @@
             </p>
           </li>
           <li>
+            <div class="icon">
+              <img src="./img/diagramma.svg" alt="диаграмма">
+            </div>
             <h3 class="section-title">ПЛАНИРОВАНИЕ</h3>
             <p class="section-text">
               Равным образом консультация с широким активом в значительной
@@ -76,6 +82,9 @@
             </p>
           </li>
           <li>
+            <div class="icon">
+              <img src="./img/astronaut.svg" alt="астронавт">
+            </div>
             <h3 class="section-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -85,10 +94,10 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
+      <section class="work">
         <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="work-item">
             <a href="">
               <img
                 src="./img/computer.jpg"
@@ -97,9 +106,9 @@
                 height="294"
               />
             </a>
-            <p class="work-item">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+            <p class="work-item-name">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
           </li>
-          <li>
+          <li class="work-item">
             <a href="">
               <img
                 src="./img/box.jpg"
@@ -108,21 +117,21 @@
                 height="294"
               />
             </a>
-            <p class="work-item">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+            <p class="work-item-name">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
           </li>
-          <li>
+          <li class="work-item">
             <a href="">
               <img src="./img/display.jpg" alt="монитор" width="370" height="294" />
             </a>
-            <p class="work-item">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+            <p class="work-item-name">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
           </li>
         </ul>
       </section>
       <!--Наша команда-->
       <section class="team-section">
         <h2 class="work-title">Наша команда</h2>
-        <ul>
-          <li>
+        <ul class="our-team-container">
+          <li class="our-team-card">
             <img
               src="./img/nikolai.jpg"
               alt="Николай Кучеренко"
@@ -144,7 +153,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="our-team-card">
             <img
               src="./img/olga.jpg"
               alt="Ольга Иванова"
@@ -166,7 +175,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="our-team-card">
             <img
               src="./img/andrei.jpg"
               alt="Андрей Шевченко"
@@ -188,7 +197,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="our-team-card">
             <img
               src="./img/ivan.jpg"
               alt="Иван Николаев"
@@ -213,40 +222,48 @@
         </ul>
       </section>
       <!--Постоянные клиенты-->
-      <section>
+      <section class="client">
         <h2 class="work-title">Постоянные клиенты</h2>
-        <ul>
-          <li><img src="./img/logo 1.svg"alt="Клиент №1" /></li>
-          <li><img src="./img/logo 2.svg" alt="Клиент №2" /></li>
-          <li><img src="./img/logo 3.svg" alt="Клиент №3" /></li>
-          <li><img src="./img/logo 4.svg" alt="Клиент №4" /></li>
-          <li><img src="./img/logo 5.svg" alt="Клиент №5" /></li>
-          <li><img src="./img/logo 6.svg" alt="Клиент №6" /></li>
+        <ul class="client-list container">
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 1.svg"alt="Клиент №1" /></li>
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 2.svg" alt="Клиент №2" /></li>
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 3.svg" alt="Клиент №3" /></li>
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 4.svg" alt="Клиент №4" /></li>
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 5.svg" alt="Клиент №5" /></li>
+          <li class="box"><a href="" class="link"></a><img src="./img/logo 6.svg" alt="Клиент №6" /></li>
         </ul>
       </section>
     </main>
     <!--Footer-->
-    <footer>
-      <a href="./index.html" class="logo-nav">
-        <span class="logo-part">Web</span>
-        Studio
+    <footer class="footer">
+      <div class="footer-ad-list">
+      <a href="./index.html" class="logo-footer-nav">
+        <span class="logo-blue">Web</span>
+        <span class="logo-white">Studio</span>
       </a>
-      <address>
-        <a href="" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
+      <address class="footer-ad-items">
+        <a href="" class="street-adress">г. Киев, пр-т Леси Украинки, 26</a>
         <br />
-        <a href="" class="footer-contacts">info@example.com</a>
+        <a href="" class="contact-adress">info@example.com</a>
         <br />
-        <a href="" class="footer-contacts">+38 099 111 11 11</a>
+        <a href="" class="contact-adress">+38 099 111 11 11</a>
       </address>
-      <b>ПРИСОЕДЕНЯЙТЕСЬ</b>
+    </div>
+    <div class="footer-social-link">
+    <span class="footer-text"><b>ПРИСОЕДЕНЯЙТЕСЬ</b></span>
       <ul class="social-list">
         <li><a href="" aria-label="Instagram" class="link">Instagram</a></li>
         <li><a href="" aria-label="Twitter" class="link">Twitter</a></li>
         <li><a href="" aria-label="Facebook" class="link">Facebook</a></li>
         <li><a href="" aria-label="LinkedIn" class="link">LinkedIn</a></li>
       </ul>
-      <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+    </div>
+    <div>
+      <span class="footer-text"><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></span>
+    </div>
+    <div>
       <button class="button primary">Подписаться</button>
+    </div>
     </footer>
   </body>
 </html>
