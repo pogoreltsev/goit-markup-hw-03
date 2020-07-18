@@ -1,0 +1,179 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --text-button: #ffffff;
+    --back-button-color: #f5f4fa;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: Roboto;
+    font-weight: 400;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5, 
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  /*header*/
+  /*Оформление меню навигации*/
+  .logo-nav {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--title-text-color);
+  }
+  .logo-part {
+    color: var(--accent-text-color);
+  }
+  
+  .site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--title-text-color);
+  }
+  
+  .site-nav .link {
+    color: var(--title-text-color);
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--accent-text-color);
+  }
+  .site-nav .link.current {
+    color: var(--accent-text-color);
+  }
+  
+  /*Оформление адреса*/
+  .head-link {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+  }
+  
+  .head-link:hover,
+  .head-link:focus {
+    color: var(--accent-text-color);
+  }
+  
+  /*Оформление секции Hero*/
+  .hero {
+    color: #000000;
+  }
+  
+  .hero-title {
+    font-size: 44px;
+    font-weight: 900;
+  }
+  
+  .button {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-button);
+    background-color: var(--accent-text-color);
+  }
+  .button.primary {
+    color: var(--text-button);
+    background-color: var(--accent-text-color);
+  }
+  .button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--back-button-color);
+  }
+  .button.secondary:hover,
+  .button.secondary:focus {
+    background-color: var(--accent-text-color);
+    color: var(--text-button);
+  }
+  
+  /*Оформление секции Наше преимущество*/
+  .hide-title {
+    display: none;
+  }
+  .section-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--title-text-color);
+  }
+  .section-text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /*Оформление секции Чем мы занимаемся*/
+  .work-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--title-text-color);
+  }
+  .work-item {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--title-text-color);
+  }
+  
+  /*Оформление секции Наша команда*/
+  .team-member {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-text-color);
+  }
+  .team-work {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+ /*Стилизация Fotter*/
+  .footer-adress {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footer-contacts {
+    color: rgba(0, 150, 255, 06);
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  /*Стилизация portfolio.html*/
+  .portfolio-list h3 {
+    color: var(--title-text-color);
+  }
+  .button-list .button {
+    font-weight: 500;
+  }
+  .hide-title {
+    font-size: 18px;
+    font-weight: 700; /*Проверить почему перебивает размер текста*/
+  }
+  .title-post {
+    font-size: 18px;
+  }
